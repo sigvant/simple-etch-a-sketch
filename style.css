@@ -1,0 +1,45 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    width: 900px;
+    background-color: black;
+}
+
+.container .buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.container .buttons button {
+    width: 150px;
+    height: 60px;
+    background: grey;
+    border-radius: 5%;
+    font-size: 2rem;
+    color: white;
+}
+
+.container .screen {
+    display: grid;
+    width: 800px;
+    height: 800px;
+    border: 5px solid gold;
+    margin: 20px auto;
+}
+
+/* you can actually choose the grid parent size with regular properties
+like width and height*/
